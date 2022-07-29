@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A4052CE2894832A00BA23FF /* PhotosPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4052CD2894832A00BA23FF /* PhotosPickerViewModel.swift */; };
 		6AC07EC7289482BE004CC130 /* PhotosPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC07EC6289482BE004CC130 /* PhotosPickerApp.swift */; };
 		6AC07EC9289482BE004CC130 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC07EC8289482BE004CC130 /* ContentView.swift */; };
 		6AC07ECB289482BF004CC130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AC07ECA289482BF004CC130 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A4052CD2894832A00BA23FF /* PhotosPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickerViewModel.swift; sourceTree = "<group>"; };
 		6AC07EC3289482BE004CC130 /* PhotosPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotosPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC07EC6289482BE004CC130 /* PhotosPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickerApp.swift; sourceTree = "<group>"; };
 		6AC07EC8289482BE004CC130 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				6AC07EC6289482BE004CC130 /* PhotosPickerApp.swift */,
 				6AC07EC8289482BE004CC130 /* ContentView.swift */,
+				6A4052CD2894832A00BA23FF /* PhotosPickerViewModel.swift */,
 				6AC07ECA289482BF004CC130 /* Assets.xcassets */,
 				6AC07ECC289482BF004CC130 /* PhotosPicker.entitlements */,
 				6AC07ECD289482BF004CC130 /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A4052CE2894832A00BA23FF /* PhotosPickerViewModel.swift in Sources */,
 				6AC07EC9289482BE004CC130 /* ContentView.swift in Sources */,
 				6AC07EC7289482BE004CC130 /* PhotosPickerApp.swift in Sources */,
 			);
@@ -269,6 +273,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Hability to select a photo from library";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -307,6 +312,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Hability to select a photo from library";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
